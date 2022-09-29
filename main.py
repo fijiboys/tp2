@@ -19,3 +19,5 @@ nb_essai = nb_essai + 1
 
 if chiffre_joueur < nombre:
     print(nombre > chiffre_joueur)
+
+
