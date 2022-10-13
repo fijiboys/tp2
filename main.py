@@ -18,6 +18,12 @@ chiffre_joueur = int(input("Entrez votre essai:  "))
 nb_essai = nb_essai + 1
 
 if chiffre_joueur < nombre:
-    print(nombre > chiffre_joueur)
+    print("ton nombre est trop petit javais choisi", nombre)
+
+if chiffre_joueur > nombre:
+    print("ton nombre est trop grand javais choisi", nombre)
+
+if chiffre_joueur == nombre:
+    print("bonne reponse javais choisi", nombre)
 
 
